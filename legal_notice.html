@@ -22,23 +22,23 @@
   </head>
 
   <body onload="Init(); includeHTML();addActiveClass4();">
-    <header w3-include-html="./assets/templates/header.html"></header>
-    <section w3-include-html="./assets/templates/sidebar.html"></section>
-    <img
-      class="backArrow"
+
+   <!---- <header w3-include-html="./assets/templates/header.html"></header>
+    <section w3-include-html="./assets/templates/sidebar.html"></section> -->
+
+    <div w3-include-html="assets/templates/header.html"></div>
+
+    <div w3-include-html="assets/templates/sidebar.html"></div>
+
+    <img class="backArrow"
       onclick="history.back()"
       src="./img/backArrow.svg"
       alt="Back Arow"
     />
 
-<<<<<<< HEAD
-    <div w3-include-html="assets/templates/header.html"></div>
-
-    <div w3-include-html="assets/templates/sidebar.html"></div>
-    <div class="headlineContacts">LN</div>
-=======
+    <div class="headlineContacts"></div>
     <section class="content">
-      <h1>Lega Notice</h1>
+      <h1>Legal Notice</h1>
       <h2>Imprint</h2>
       <ul>
         <li>Makedonka Sander</li>
@@ -120,7 +120,6 @@
       </p>
     </section>
 
->>>>>>> 9e74b59ef12aeb4622f637a16babaa0befc2895b
     <script>
       includeHTML();
     </script>
