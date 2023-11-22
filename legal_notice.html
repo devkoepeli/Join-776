@@ -22,11 +22,23 @@
   </head>
 
   <body onload="Init(); includeHTML();addActiveClass4();">
-    <header w3-include-html="./assets/templates/header.html"></header>
-    <section w3-include-html="./assets/templates/sidebar.html"></section>
 
+   <!---- <header w3-include-html="./assets/templates/header.html"></header>
+    <section w3-include-html="./assets/templates/sidebar.html"></section> -->
+
+    <div w3-include-html="assets/templates/header.html"></div>
+
+    <div w3-include-html="assets/templates/sidebar.html"></div>
+
+    <img class="backArrow"
+      onclick="history.back()"
+      src="./img/backArrow.svg"
+      alt="Back Arow"
+    />
+
+    <div class="headlineContacts"></div>
     <section class="content">
-      <h1>Lega Notice</h1>
+      <h1>Legal Notice</h1>
       <h2>Imprint</h2>
       <ul>
         <li>Makedonka Sander</li>
@@ -107,7 +119,7 @@
         Date: November 20, 2023
       </p>
     </section>
-
+    <div w3-include-html="assets/templates/mobile.html"></div>
     <script>
       includeHTML();
     </script>

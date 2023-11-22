@@ -22,8 +22,20 @@
   </head>
 
   <body onload="Init(); includeHTML();addActiveClass5();">
-    <header w3-include-html="./assets/templates/header.html"></header>
-    <section w3-include-html="./assets/templates/sidebar.html"></section>
+
+    <div w3-include-html="assets/templates/header.html"></div>
+
+    <div w3-include-html="assets/templates/sidebar.html"></div>
+
+  <!---- correctur Mona
+     <header w3-include-html="./assets/templates/header.html"></header>
+    <section w3-include-html="./assets/templates/sidebar.html"></section> -->
+    <img
+      class="backArrow"
+      onclick="history.back()"
+      src="./img/backArrow.svg"
+      alt="Back Arow"
+    />
     <section class="content">
       <h1>Datenschutzerklärung</h1>
       <p>
