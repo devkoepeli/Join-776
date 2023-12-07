@@ -14,6 +14,7 @@ async function setItem(key, value) {
     .then(res => res.json());
 }
 
+
 /**
  * Fetches data from the backend.
  * @param {key} key - key name to fetch
